@@ -1,4 +1,4 @@
-# Repositorio de proyecto de implementación 2 de arquitectura de software
+# Instrucciónes de instalación y uso
 
 Instalación de docker y docker compose:
 
@@ -46,3 +46,19 @@ Apagar contenedor:
 ~~~
 docker compose down
 ~~~
+
+# Proyecto de Arquitectura de Software con Message Brokers
+
+El proyecto demuestra la utilización de una arquitectura basada en Message Brokers que utiliza RabbitMQ para facilitar la comunicación entre microservicios. Los microservicios se desarrollan en Python y se utiliza Docker para gestionar los contenedores.
+
+## Estructura del Proyecto
+
+El proyecto está dividido en tres microservicios:
+
+1. **Order Service**: Genera y envía pedidos a RabbitMQ.
+2. **Inventory Service**: Valida los pedidos y publica los resultados.
+3. **Shipping Service**: Gestiona el envío de pedidos validados.
+
+### Muestra de funcionamiento
+
+![alt text](RABBIT.png)
