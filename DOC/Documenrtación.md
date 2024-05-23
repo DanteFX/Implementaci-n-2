@@ -1,3 +1,3 @@
 ### Arquitectura del sistema
 
-![alt text](image.png)
+![alt text](<Arquitectura implementación 2.png>)
