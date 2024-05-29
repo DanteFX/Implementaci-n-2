@@ -37,6 +37,14 @@ Inicialización, descarga de contenedores y construcción:
 docker compose up -d --build
 ~~~
 
+Visualizacion de RabbitMQ:
+~~~
+http://localhost:15672/#/
+
+admin:    guest
+password: guest
+~~~
+
 Salir de la sesión:
 ~~~
 exit
